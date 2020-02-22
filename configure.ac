@@ -329,7 +329,7 @@ case $(uname -s) in
 	AC_MSG_RESULT(darwin)
 	AC_SUBST(OS_SYSTEM, darwin)
 	;;
-    *linux*)
+    *linux* | *Linux*)
 	#AC_DEFINE(OS_LINUX,1)
 	AC_MSG_RESULT(linux)
 	AC_SUBST(OS_SYSTEM, linux)
